@@ -1,17 +1,3 @@
-"""
-Jogo da Forca de Música
-
-- Lista com nomes das músicas
-- Função que pega um nome aleatório dessa lista
-- Função do jogo
-	- Pessoa tem 6 vidas
-	- Vetor que guarda as letras que já chutou
-		- Não pode chutar letras que já havia chutado
-	- Função para printrar onde aquela letra se encaixa
-	- Função que verifica se já acertou todas as letras
-	- Função que verifica se perdeu (perdeu todas as vidas)
-"""
-
 import random
 
 MUSICS = {
